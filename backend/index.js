@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Configure CORS to allow requests from your frontend URL
 const corsOptions = {
-    origin: ['http://localhost:5173', process.env.FRONTEND_URL],
+    origin: ['https://spiritual-master-bot.onrender.com', 'https://spiritual-master-bot-1.onrender.com'],
 };
 
 app.use(cors(corsOptions));
